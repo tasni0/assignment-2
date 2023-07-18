@@ -11,10 +11,21 @@
         flex-direction: column;
         margin-top: 10px;
     }
+
+    .banner{
+        flex-direction: column-reverse;
+    margin-top: 150px;
+    }
+
+    .banner-img{
+        width: auto;
+        
+    }
+    
 }
 
 
-
+/* mediam devices like tab */
 @media screen and (min-width:577px) and (max-width:992px)
  {
     nav{
