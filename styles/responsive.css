@@ -1,0 +1,25 @@
+/* mobile devices */
+
+@media screen and (max-width :576px) {
+    nav{
+        flex-direction: column;
+        margin-top: 100px;
+       align-items: center;
+    }
+
+    .nav-items>ul{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+}
+
+
+
+@media screen and (min-width:577px) and (max-width:992px)
+ {
+    nav{
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
+    }
+}
