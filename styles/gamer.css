@@ -108,7 +108,7 @@ h1 {
     padding-right: 20px;
 }
 
-.banner-description p {
+.banner-description p ,.we p{
     color: #534C64;
     font-size: 1.25rem;
     font-weight: 500;
@@ -143,8 +143,39 @@ h1 {
 .banner-img {
     max-width: 30%;
 }
+  /* we styles */
 
+  .we{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-bottom: 50px;
+   
+  }
 
+  .we-img{
+    width: 600px;
+  }
+
+  .we-text{
+    width: 500px;
+    text-align: right;
+
+  }
+
+  .we h3{
+    text-align: right;
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  
+.we h4{
+color: #534C64;
+font-size: 1.5rem;
+line-height: 45px;
+margin-top: 0;
+}
 .online-title {
     color: #0B0223;
     text-align: center;
@@ -152,7 +183,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-.funny {
+.funny ,.we h3{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -167,6 +198,7 @@ h1 {
     margin-top: 0;
     margin-bottom: 45px;
 }
+
 .online-img {
 
     display: flex;
@@ -175,14 +207,17 @@ h1 {
     border-radius: 1rem;
 
 }
+
 .image-container {
     position: relative;
-  }
+}
+
 .online-img img {
     width: 342px;
     height: 400px;
-   
+
 }
+
 .overlay {
     position: absolute;
     top: 0;
@@ -193,49 +228,41 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-  }
-   
-  .icon-wrapper {
+
+}
+
+.icon-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     visibility: hidden;
-  }
-      .play-icon {
-        
-        color: rgb(250, 246, 246);
-        margin-bottom: 10px;
-        font-size: 3rem;
-        
-      }
-      
-      .watch {
-        color: #FF42A5;
-        text-align: center;
-        font-size: 1.5rem;
-        
-      }
-      
-      .image-container:hover  .overlay{
-       
-        background-color: black;
-        opacity: 0.8;
-        border: 5px solid #FF42A5;
-        border-radius: 15px;
-        
-       
-      }
-      .image-container:hover  .icon-wrapper{
-       
-        visibility: visible;
-      }
-      
-   
-    
-   
-   
+}
 
+.play-icon {
+
+    color: rgb(250, 246, 246);
+    margin-bottom: 10px;
+    font-size: 3rem;
+
+}
+
+.watch {
+    color: #FF42A5;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+.image-container:hover .overlay {
+    background-color: black;
+    opacity: 0.8;
+    border: 5px solid #FF42A5;
+    border-radius: 15px;
+}
+
+.image-container:hover .icon-wrapper {
+    visibility: visible;
+}
 
 .game-text {
     display: flex;
@@ -247,6 +274,140 @@ h1 {
     color: #534C64;
     font-size: 1.25rem;
     line-height: 30px;
-    /* 150% */
     margin: 15px;
+}
+
+/* play styles */
+.play {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.play-text h3 {
+    font-size: 3rem;
+    line-height: 60px;
+    margin-top: 250px;
+    margin-bottom: 0;
+}
+
+.span-no {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    ;
+}
+
+.play-text p {
+    color: #534C64;
+    width: 300px;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+.play-img {
+    height: 70%;
+    margin-left: 90px;
+}
+
+.play-img-small {
+    width: 342px;
+    position: relative;
+    bottom: 150px;
+    right: 60px;
+}
+
+/* button styles */
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+}
+
+.btn {
+    border-radius: 50px;
+    background-color: #FFF;
+    width: 248px;
+    height: 80px;
+    text-align: center;
+    color: #0B0223;
+    font-size: 1rem;
+    border: none;
+
+
+}
+
+.btn img {
+    padding-right: 10px;
+    margin: 0;
+}
+
+
+.btn:hover {
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+}
+
+footer {
+    margin-top: 70px;
+    background: #0B0223;
+
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+
+.logo-img {
+    width: 86px;
+    height: 40px;
+    margin-right: 15px;
+    margin-top: 50px;
+
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 2.8rem;
+
+}
+
+.footer-items{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    color: #FFF;
+font-size: 1.2rem;
+    
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 30px;
+   font-size: 1.8rem;
+}
+
+.footer-list{
+    margin-top: 70px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.footer-copyright{
+    margin-top: 24px;
+    padding-bottom: 50px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    text-align: center;
+
 }
