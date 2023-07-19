@@ -1,37 +1,95 @@
 /* mobile devices */
-
-@media screen and (max-width :576px) {
+@media screen and (max-width : 576px) {
     nav{
+        margin: 150px;
         flex-direction: column;
-        margin-top: 100px;
-       align-items: center;
-       box-shadow: none;
+        justify-content: center;
+        padding: 120px;
+        box-shadow: none;
+        
     }
 
     .nav-items>ul{
         flex-direction: column;
-        margin-top: 10px;
-        
+        width: max-content;
     }
 
     .banner{
         flex-direction: column-reverse;
-        margin-top: 150px;
-    }
+        margin-left: 100px;
 
-    .banner-img {
-        width: auto;
+}
+
+.we{
+    flex-direction: column;
+    justify-content: center;
+   
+}
+   
+.we-text{
+    text-align: center;
+    margin-left: 170px;
+}
+.we h3{
+   text-align: center; 
+}
+.online-title{
+    text-align: center; 
+    padding-left: 120px;
+    width: max-content;
+
+}
+.online-description {
+    text-align: center;
+    padding-left: 170px;
+    width: max-content;
+
+}
+.online-img {
+    flex-direction: column;
+    margin-left: 240px;
+}
+.game-text{
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.play {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -200px;
+    text-align: center;
+    margin-left: 30px;
+    width: max-content;
+}
+.play-text p{
+    margin-left: 100px;
+    width: 500px; 
+}
+.play-img {
+    width: auto;
+    margin-left: 80px;
+}
+
+.button{
     
-    }
+}
+
+footer{
+    margin-top: 0px;
+    width: 860px;
+}
+.footer-items{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 }
 
 
-/* mediam devices like tab */
-@media screen and (min-width:577px) and (max-width:992px)
- {
-    nav{
-        flex-direction: column;
-        margin-top: 50px;
-        align-items: center;
-    }
+
+/* medium devices */
+@media screen and (min-width : 577px) and (max-width : 992px)
+{
+nav{
+    margin: 50px;
+}
 }
