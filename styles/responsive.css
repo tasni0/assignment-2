@@ -5,23 +5,24 @@
         flex-direction: column;
         margin-top: 100px;
        align-items: center;
+       box-shadow: none;
     }
 
     .nav-items>ul{
         flex-direction: column;
         margin-top: 10px;
+        
     }
 
     .banner{
         flex-direction: column-reverse;
-    margin-top: 150px;
+        margin-top: 150px;
     }
 
-    .banner-img{
+    .banner-img {
         width: auto;
-        
-    }
     
+    }
 }
 
 
