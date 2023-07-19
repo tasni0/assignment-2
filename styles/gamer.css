@@ -86,9 +86,11 @@ li i {
 .banner {
     display: flex;
     justify-content: space-around;
+    background-image: url('../images/Group\ 14.png');
 }
 
 .banner-title {
+    margin-top: 150px;
     color: #0B0223;
     font-size: 3rem;
     text-transform: uppercase;

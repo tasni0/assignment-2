@@ -1,11 +1,10 @@
 /* mobile devices */
 @media screen and (max-width : 576px) {
     nav{
-        margin: 150px;
+       
         flex-direction: column;
         justify-content: center;
-        padding: 120px;
-        box-shadow: none;
+        margin-top: 300px;
         
     }
 
@@ -71,17 +70,33 @@
 }
 
 .button{
-    
+    display: grid;
+    grid-template-columns: repeat(3,1fr );
+    margin-left: 450px;
 }
 
 footer{
     margin-top: 0px;
     width: 860px;
 }
-.footer-items{
-    flex-direction: row;
-    flex-wrap: wrap;
+.footer-items,.footer-icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-left: 170px;
 }
+
+.footer-list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-left: 150px;
+}
+.footer-copyright{
+    width: 250px;
+    margin-left: 300px;
+}
+
 }
 
 
