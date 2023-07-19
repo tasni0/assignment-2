@@ -23,7 +23,8 @@ nav {
     width: 86px;
     height: 40px;
     margin-right: 20px;
-    margin-top: 38px;
+    margin-top: 30px;
+    
 
 }
 
@@ -34,7 +35,7 @@ nav {
 .nav-title {
     font-size: 2.8rem;
     font-weight: 700;
-    margin-top: 30px;
+    margin-top: 45px;
 
 }
 
@@ -49,16 +50,21 @@ nav {
 
 }
 
-nav li {
+nav li  {
     list-style: none;
 }
 
-.about,
-.dev {
-    margin-top: 20px;
+.about,.dev {
+    margin-top: 40px;
+   
+}
+
+nav a{
+    text-decoration: none;
 }
 
 .nav-follow {
+    margin-top:20px ;
     border-radius: 8px;
     background-color: rgba(11, 2, 35, 0.10);
     width: 262px;
@@ -66,7 +72,7 @@ nav li {
 }
 
 .nav-follow li {
-    margin-top: 17px;
+    margin-top: 20px;
     margin-left: 24px;
 }
 
@@ -314,8 +320,8 @@ margin-top: 0;
 .play-img-small {
     width: 342px;
     position: relative;
-    bottom: 150px;
-    right: 60px;
+    bottom: 200px;
+    right: 80px;
 }
 
 /* button styles */
@@ -324,25 +330,26 @@ margin-top: 0;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 85px;
+    gap: 17px;
+   
+    margin: 0px 180px;
 }
 
 .btn {
     border-radius: 50px;
     background-color: #FFF;
-    width: 248px;
-    height: 80px;
+    width: 270px;
+    height: 70px;
     text-align: center;
     color: #0B0223;
     font-size: 1rem;
+    font-weight: 700;
     border: none;
-
-
+    display: flex;
+    align-items: center;    
 }
-
-.btn img {
+.btn img{
     padding-right: 10px;
-    margin: 0;
 }
 
 
