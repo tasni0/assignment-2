@@ -22,7 +22,9 @@
 
     .banner {
         flex-direction: column-reverse;
+        justify-content: space-around;
         margin-left: 100px;
+        background-image: none;
     }
 
     .banner-img {
@@ -175,6 +177,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin-left: 350px;
+        
     }
 
     .play {
