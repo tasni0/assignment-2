@@ -126,7 +126,7 @@
 @media screen and (min-width : 577px) and (max-width : 992px) {
     nav {
         margin-top: 50px;
-        margin-left: 250px;
+        margin-left:320px;
 
 
     }
@@ -196,14 +196,5 @@
     footer {
         margin-top: 0px;
         width: 1140px;
-    }
-
-    .footer-items,
-    .footer-icons {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        justify-content: center;
-        gap: 10px;
-        margin-left: 170px;
     }
 }
