@@ -216,8 +216,7 @@ h1 {
 .online-img {
 
     display: flex;
-    justify-content: center;
-    gap: 24px;
+    justify-content: center;   
     border-radius: 1rem;
 
 
@@ -230,8 +229,9 @@ h1 {
 
 
 .online-img img {
-    width: 355px;
+    width: 320px;
     height: 400px;
+    margin-left: 30px;
 
 }
 
@@ -239,7 +239,9 @@ h1 {
     position: absolute;
     top: 0;
     left: 0;
-    width: 355px;
+    width: 320px;
+    margin-left: 25px;
+
     height: 400px;
     border-radius: 8px;
     display: flex;
@@ -286,7 +288,7 @@ h1 {
     color: #534C64;
     font-size: 1.25rem;
     line-height: 30px;
-    margin: 15px;
+    margin-left: 25px;
 }
 
 /* play styles */
