@@ -4,7 +4,7 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
-    
+
 }
 
 nav {
@@ -25,7 +25,7 @@ nav {
     height: 40px;
     margin-right: 20px;
     margin-top: 30px;
-    
+
 
 }
 
@@ -51,21 +51,22 @@ nav {
 
 }
 
-nav li  {
+nav li {
     list-style: none;
 }
 
-.about,.dev {
+.about,
+.dev {
     margin-top: 40px;
-   
+
 }
 
-nav a{
+nav a {
     text-decoration: none;
 }
 
 .nav-follow {
-    margin-top:20px ;
+    margin-top: 20px;
     border-radius: 8px;
     background-color: rgba(11, 2, 35, 0.10);
     width: 262px;
@@ -117,7 +118,8 @@ h1 {
     padding-right: 20px;
 }
 
-.banner-description p ,.we p{
+.banner-description p,
+.we p {
     color: #534C64;
     font-size: 1.25rem;
     font-weight: 500;
@@ -152,39 +154,41 @@ h1 {
 .banner-img {
     width: 630px;
 }
-  /* we styles */
 
-  .we{
+/* we styles */
+
+.we {
     display: flex;
     justify-content: space-around;
     margin-top: 70px;
     margin-bottom: 50px;
-   
-  }
 
-  .we-img{
+}
+
+.we-img {
     width: 600px;
-  }
+}
 
-  .we-text{
+.we-text {
     width: 500px;
     text-align: right;
 
-  }
+}
 
-  .we h3{
+.we h3 {
     text-align: right;
     font-size: 3rem;
     margin-bottom: 10px;
-  }
-
-  
-.we h4{
-color: #534C64;
-font-size: 1.5rem;
-line-height: 45px;
-margin-top: 0;
 }
+
+
+.we h4 {
+    color: #534C64;
+    font-size: 1.5rem;
+    line-height: 45px;
+    margin-top: 0;
+}
+
 .online-title {
     color: #0B0223;
     text-align: center;
@@ -192,7 +196,8 @@ margin-top: 0;
     margin-bottom: 10px;
 }
 
-.funny ,.we h3{
+.funny,
+.we h3 {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -214,7 +219,7 @@ margin-top: 0;
     justify-content: center;
     gap: 24px;
     border-radius: 1rem;
-    
+
 
 }
 
@@ -332,7 +337,7 @@ margin-top: 0;
     justify-content: center;
     align-items: center;
     gap: 17px;
-   
+
     margin: 0px 180px;
 }
 
@@ -347,9 +352,10 @@ margin-top: 0;
     font-weight: 700;
     border: none;
     display: flex;
-    align-items: center;    
+    align-items: center;
 }
-.btn img{
+
+.btn img {
     padding-right: 10px;
 }
 
@@ -386,24 +392,24 @@ footer {
 
 }
 
-.footer-items{
+.footer-items {
     display: flex;
     justify-content: center;
     gap: 60px;
     color: #FFF;
-font-size: 1.2rem;
-    
+    font-size: 1.2rem;
+
 }
 
-.footer-icons{
+.footer-icons {
     display: flex;
     justify-content: center;
     gap: 70px;
     margin-top: 30px;
-   font-size: 1.8rem;
+    font-size: 1.8rem;
 }
 
-.footer-list{
+.footer-list {
     margin-top: 70px;
     color: rgba(255, 255, 255, 0.60);
     font-size: 1rem;
@@ -411,7 +417,8 @@ font-size: 1.2rem;
     justify-content: center;
     gap: 60px;
 }
-.footer-copyright{
+
+.footer-copyright {
     margin-top: 24px;
     padding-bottom: 50px;
     color: rgba(255, 255, 255, 0.60);
